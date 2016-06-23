@@ -37,7 +37,7 @@ Javascript
 
 Again, if you are not using Bootstrap, omit their respective CSS and JS files
 ## Usage
-To use the code, you just need to instantiate the class
+To use the code, you just need to instantiate the class. You can un-comment the debug boolean to view reported data in the console, or you can remove it all-together in production.
 
     var newExitIntent = new exitIntent({ /*debug:true*/ });
 
