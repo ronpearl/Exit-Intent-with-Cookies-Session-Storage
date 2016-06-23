@@ -1,5 +1,5 @@
 # Exit Intent with Cookies & Session Storage
-This jQuery/Javascript class allows you to drop in an exit intent strategy for your website. It stores a cookie or local session showing that the user was already shown the exit intent window and wouldn't be shown it again. It's a simple "class" that you would need to use your own form of validation and database calls via AJAX. There is a "TODO" notice within the class for placement.
+This jQuery/Javascript class allows you to drop in an exit intent strategy for your website. It stores local storage showing that the user was already shown the exit intent window and wouldn't be shown it again. It's a simple "class" that you would need to use your own form of validation and database calls via AJAX. There is a "TODO" notice within the class for placement.
 ## Requirements
 This example does require jQuery, Bootstrap v3.3.6, jauuld cookies javascript file to run as intended.  Bootstrap is referenced in the supplied index.php file, and the jauuld cookies script is included in the JS folder. 
 
@@ -51,3 +51,5 @@ And then add the form submission code to process the data
     })
         
 This will serialize the submitted info to be used in your AJAX call (Line 66).  This will be up to you to decide how you would like to manage that process.
+## Support
+You can <a href="https://github.com/ronpearl/Exit-Intent-with-Cookies-Session-Storage/issues/new">open an issue</a> for support, but please keep in mind that the main idea for this script is to handle the exit intent and to use local storage for usability.
