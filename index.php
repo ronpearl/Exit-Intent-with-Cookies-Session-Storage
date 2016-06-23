@@ -73,7 +73,7 @@
 <script src="dist/js/exitIntent.js"></script>
 
 <script>
-    var newExitIntent = new exitIntent({ debug:true });
+    var newExitIntent = new exitIntent({ /*debug:true*/ });
 
     $("#exitIntentForm").submit(function(e) {
         e.preventDefault();
