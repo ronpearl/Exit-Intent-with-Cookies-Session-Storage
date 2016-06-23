@@ -1,0 +1,83 @@
+/***************
+Exit Intent Modal
+***************/
+#waitIcon {
+    color: #e7dfeb;
+    display: none;
+    margin: 30px 0;
+    text-align: center;
+}
+
+#exitModal .modal-dialog {
+    margin: 10% auto;
+    width: 660px;
+}
+
+#exitModal .modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#exitModal .modal-body {
+    padding: 24px;
+}
+
+#exitModal .modal-header {
+    background-color: transparent;
+    border-bottom: none;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+#exitModal .close {
+    color: #000000;
+    font-size: 35px;
+    opacity: 1;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+#exitModal .modal-body {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#exitModal h4 {
+    color: #5F259F;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 9px 0 20px;
+    text-align: center;
+}
+
+#exitIntent-newsletter {
+    height: auto;
+    opacity: 1;
+    display: block;
+}
+
+#newsletter-done {
+    display: none;
+}
+
+#exitModal .form-group {
+    position: relative;
+}
+
+#exitModal .custom-checkboxes label, #exitModal .custom-radios label {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    #exitModal .modal-dialog {
+        margin: 10% 15px 0;
+        width: auto;
+    }
+}
